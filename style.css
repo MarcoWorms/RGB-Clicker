@@ -1,0 +1,91 @@
+#gameWrapper {
+    position: relative;
+    margin: auto;
+    width: 960px;
+    height: 600px;
+    background-color: #eeeeee;
+}
+
+.window {
+    position: absolute;
+    top: 50px;
+    height: 500px;
+    width: 250px;
+    background-color: #dddddd;
+}
+.window p {
+    text-align: center;
+}
+.windowList {
+    margin: auto;
+    height: 89%;
+    width: 95%;
+    background-color: #eeeeee;
+}
+#inventoryWindow {
+    left: 50px;
+}
+#shopWindow {
+    left: 660px;
+}
+
+#clickers {
+    position: absolute;
+    left: 348px;
+    top: 150px;
+}
+.circlePart {
+    position: absolute;
+}
+.TopLeftQuarter > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 130px solid #ff0000;
+    border-bottom: none;
+    border-right: none;
+    border-top-left-radius: 130px;
+    left: 0px;
+    top: 0px;
+}
+.TopRightQuarter > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 130px solid #00ff00;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 130px;
+    left: 132px;
+    top: 0px;
+}
+.BottomLeftQuarter > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 130px solid #0000ff;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 130px;
+    left: 0px;
+    top: 132px;
+}
+.BottomRightQuarter > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 130px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 130px;
+    left: 132px;
+    top: 132px;
+}
